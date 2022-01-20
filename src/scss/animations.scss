@@ -1,0 +1,38 @@
+.fadeIn-enter-active,
+.fadeIn-leave-active {
+  transition: all 0.3s;
+}
+.fadeIn-enter-from,
+.fadeIn-leave-to {
+  transform: translateY(0) !important;
+  opacity: 0;
+}
+
+.opacity-enter-active,
+.opacity-leave-active {
+  transition: all 0.2s;
+}
+.opacity-enter-from,
+.opacity-leave-to {
+  opacity: 0;
+}
+
+.showBackground-enter-active,
+.showBackground-leave-active {
+  transition: all 600ms;
+}
+.showBackground-enter-from,
+.showBackground-leave-to {
+  transform: scale(1.4);
+  opacity: 0;
+}
+
+.success-enter-active,
+.success-leave-active {
+  transition: all 400ms;
+}
+.success-enter-from,
+.success-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
